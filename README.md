@@ -67,7 +67,7 @@ Be sure to note the Guest Issuer Name, Guest Issuer ID and Guest Issuer Shared S
 
   - Now a web browser to our web server at <http://localhost:5100/> (assuming you left the default port and web server address in the `app.py` source file), then enter the destination in the input box (i.e. foo@acme.com , could be a user or the URI of a Webex meeting) and click on the Submit button.  
 
-![/IMAGES/SpecifyDestination.png](/IMAGES/SpecifyDestination.png)
+
 
   - IMPORTANT: You must specify localhost if running locally and you have not changed the Flask code in `app.py` to use https with a certificate or else the Webex Teams Web SDK will throw an error when you trying  to connect the audio/video of the call.  
 
