@@ -65,13 +65,13 @@ Be sure to note the Guest Issuer Name, Guest Issuer ID and Guest Issuer Shared S
 
     ```$ python app.py```
 
-  - Now a web browser to our web server at <http://localhost:5100/> (assuming you left the default port and web server address in the `app.py` source file), then enter the destination in the input box (i.e. foo@acme.com , could be a user or the URI of a Webex meeting) and click on the Submit button.  
+  - Now a web browser to our web server at <http://localhost:5100/> (assuming you left the default port and web server address in the `app.py` source file), then enter the destination in the input box (i.e. test@abc.com , could be a user or the URI of a Webex meeting) and click on the Submit button.  
 
 
 
   - IMPORTANT: You must specify localhost if running locally and you have not changed the Flask code in `app.py` to use https with a certificate or else the Webex Teams Web SDK will throw an error when you trying  to connect the audio/video of the call.  
 
-  - You can also specify the destination to call without having to enter it in an input box by using the 'join' path of the sample application instead of going to to the root path. This is an example of calling the Webex Teams user foo@acme.com: <http://localhost:5100/join/foo@acme.com>  
+  - You can also specify the destination to call without having to enter it in an input box by using the 'join' path of the sample application instead of going to to the root path. This is an example of calling the Webex Teams user test@abc.com: <http://localhost:5100/join/test@abc.com>  
 
   - The main call page is loaded and after a few seconds.  
   - Once the green **Call** button is enabled, click on it to place a call to the destination specified in the URI provided.  
